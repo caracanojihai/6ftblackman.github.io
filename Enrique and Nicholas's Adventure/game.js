@@ -54,9 +54,7 @@ window.addEventListener("load", function(){
 loadLevel();
 });
 //timer
-window.addEventListener("load", function(){
-timer(time);
-});
+
 
 
 
