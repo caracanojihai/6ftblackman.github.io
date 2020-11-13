@@ -10,7 +10,7 @@ const levels = [
 ["","", "","","",
 "animate", "animate", "hurdle","obstacle2","",
 "rider","obstacle2","target","hurdleup","",
-"obstacle3","obstacle2","hurdle", "obstacle2","",
+"obstacle3","obstacle2","hurdleup", "obstacle2","",
 "lbright","","","",""],
 
 //level 2
