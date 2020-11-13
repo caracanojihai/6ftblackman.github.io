@@ -1,0 +1,309 @@
+body{
+background-color: black;
+}
+#gameBoard{
+border:1px solid black;
+display:grid;
+grid-template-columns:120px 120px 120px 120px 120px;
+grid-template-rows:120px 120px 120px 120px 120px;
+justify-content: center;
+width:600px;
+height:600px;
+margin-left:auto;
+margin-right:auto;
+background-image:url("images/background.png");
+
+}
+#gameBoard div{
+
+background-repeat:no-repeat;
+
+
+}
+#timer{
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	height: 120px;
+	width: 120px;
+	z-index: 2;
+	background-image:url("images/timer.png");
+	font-family:Georgia,sans-serif;
+	text-align:center;
+	color: #a3364a;
+	font-weight:bold;
+	line-height: 1.7;
+}
+.rider{
+background-image:url("images/rider.png");
+}
+.obstacle{
+background-image:url("images/obstacle.png");
+}
+.obstacle2{
+background-image:url("images/obstacle2.png");
+}
+.target{
+background-image:url("images/target.png");
+}
+.hurdle{
+background-image:url("images/hurdle.png");
+}
+.hurdleup{
+background-image:url("images/hurdleup.png");
+}
+.obstacle3{
+background-image:url("images/obstacle3.png");
+}
+.lbright{
+background-image:url("images/lbright.png");
+}
+.lbleft{
+background-image:url("images/lbleft.png");
+}
+.lbup{
+background-image:url("images/lbup.png");
+}
+.lbdown{
+background-image:url("images/lbdown.png");
+}
+.lbrideup{
+background-image:url("images/lbrideup.png");
+}
+.lbridedown{
+background-image:url("images/lbridedown.png");
+}
+.lbrideleft{
+background-image:url("images/lbrideleft.png");
+}
+.lbrideright{
+background-image:url("images/lbrideright.png");
+}
+.jumpup{
+background-image:url("images/lbfenceup.png");
+}
+.jumpright{
+background-image:url("images/lbfenceright.png");
+}
+.jumpleft{
+background-image:url("images/lbfenceleft.png");
+}
+.jumpdown{
+background-image:url("images/lbfencedown.png");
+}
+.enemyup{
+background-image:url("images/lbenemyup.png");
+}
+.enemydown{
+background-image:url("images/lbenemydown.png");
+}
+.enemyright{
+background-image:url("images/lbenemyright.png");
+}
+.enemyleft{
+background-image:url("images/lbenemyleft.png");
+}
+.bridge{
+background-color:#800020 !important;
+}
+.wing{
+	background-image:url("images/wing.png");
+}
+.wingholeleft{
+	background-image:url("images/wingholeleft.png");
+}
+.wingholeright{
+	background-image:url("images/wingholeright.png");
+}
+.wingholeup{
+	background-image:url("images/wingholeup.png");
+}
+.wingholedown{
+	background-image:url("images/wingholedown.png");
+}
+.lbridewingleft{
+	background-image:url("images/lbridewingleft.png");
+}
+.lbridewingright{
+	background-image:url("images/lbridewingright.png");
+}
+.lbridewingup{
+	background-image:url("images/lbridewingup.png");
+}
+.lbridewingdown{
+	background-image:url("images/lbridewingdown.png");
+}
+.wingfenceleft{
+	background-image:url("images/wingfenceleft.png");
+}
+.wingfenceright{
+	background-image:url("images/wingfenceright.png");
+}
+.wingfenceup{
+	background-image:url("images/wingfenceup.png");
+}
+.wingfencedown{
+	background-image:url("images/wingfencedown.png");
+}
+.message{
+display:none;
+position:fixed;
+top:0px;
+left:0px;
+width:100%;
+height:100%;
+background-color: rgba(181, 245, 176,0.8);
+background-image: url("images/lightboxbackground.png") ;
+color:white;
+font-family:Georgia,sans-serif;
+font-size:8em;
+vertical-align:center;
+text-align:center;
+line-height:100vh;
+}
+.endbutton{
+	position: absolute;
+	top: 500px;
+	right: 750px;
+	height: 200px;
+	width: 450px;
+	z-index: 2;
+}
+.loserimage{
+	position: absolute;
+	top: 300px;
+	right: 720px;
+	height: 200px;
+	width: 500px;
+	z-index: 2;
+}
+#levelupimage{
+	position: absolute;
+	top: 350px;
+	right: 720px;
+	height: 200px;
+	width: 500px;
+	z-index: 2;
+}
+#ws{
+	width:1900px;
+	height:1000px;
+	background-color: #678a69;
+}
+#wm{
+	position: absolute;
+	width:100%;
+	height:100%;
+	z-index: 2;
+	top:50px;
+	left:20px;
+}
+.presshere{
+	position: absolute;
+	width:550px;
+	height:99px;
+	z-index:2;
+	top:850px;
+	left:675px;
+}
+#obstacleinstructions{
+	background-color:#678a69;
+	width:100%;
+	height:100%;
+	
+}
+#instruclogo{
+	position:absolute;
+	top:20px;
+	left:450px;
+	height: 300px;
+	width: 930px;
+}
+#obstacleslogo{
+	position:absolute;
+	top:315px;
+	left:1px;
+}
+#obstaclespara{
+	position:absolute;
+	top:315px;
+	left:950px;
+}
+#movementpara{
+	position:absolute;
+	top:315px;
+	left:950px;
+}
+#movementlogo{
+	position:absolute;
+	top:315px;
+	left:1px;
+}
+#riderlogo{
+	position:absolute;
+	top:315px;
+	left:1px;
+}
+#riderpara{
+	position:absolute;
+	top:315px;
+	left:950px;
+}
+#hurdlepara{
+	position:absolute;
+	top:320px;
+	left:950px;
+}
+#hurdlelogo{
+	position:absolute;
+	top:300px;
+	left:1px;
+}
+#enemylogo{
+	position:absolute;
+	top:300px;
+	left:1px;
+}
+#enemypara{
+	position:absolute;
+	top:315px;
+	left:950px;
+}
+#winglogo{
+	position:absolute;
+	top:315px;
+	left:1px;
+}
+#wingpara{
+	position:absolute;
+	top:315px;
+	left:950px;
+}
+#timerlogo{
+	position:absolute;
+	top:300px;
+	left:1px;
+}
+#timerpara{
+	position:absolute;
+	top:315px;
+	left:950px;
+}
+.startgame{
+	position: absolute;
+	width:550px;
+	height:99px;
+	z-index:2;
+	top:850px;
+	left:675px;
+}
+#finalpara{
+	position:absolute;
+	top:315px;
+	left:950px;
+}
+#finallogo{
+	position:absolute;
+	top:300px;
+	left:1px;
+}
